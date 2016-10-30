@@ -24,3 +24,13 @@ SET METEOR_PACKAGE_DIRS=D:\Users\pb-home\projects\meteor-packages
 ```
 * Add the package to the project packages files
 
+## Further Info
+
+Refer to the comments in the [package.js](https://github.com/patrickcberry/mpk-demo/blob/master/package.js) file or the 
+Meteor Package [Documentation](https://guide.meteor.com/writing-atmosphere-packages.html).
+
+## References
+
+* [Meteor Package Documentation](https://guide.meteor.com/writing-atmosphere-packages.html)
+* [Package.js Documentation](http://docs.meteor.com/api/packagejs.html)
+

@@ -1,4 +1,8 @@
-<template name="aTemplate">
-	<h1>A Template</h1>
-	<p>Template from local package mpk-demo</p>
+<template name="aTemplate" class="aTemplate">
+	<div class="aTemplate">
+		<h1>A Template</h1>
+		<p>Template from local package mpk-demo</p>
+		<p>This is some text returned from a template helper: {{someText}}</p>
+		<p>This is a shared client and server function call: {{shared}}</p>
+	</div>
 </template>
