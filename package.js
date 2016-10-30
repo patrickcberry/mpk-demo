@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.4.1.3');
   api.use('ecmascript');
-  api.use('templating','client');
+  api.use('templating','client');             // Required to support templates in the package
   api.add_files("aTemplate.html","client");
 });
 
